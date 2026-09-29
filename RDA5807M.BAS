@@ -90,9 +90,6 @@ METHOD INIT
  R(4) = 0
  R(5) = 0
 
- REM Volume (0-15)
- V = 1
-
  R(0) = R(0) OR $00000002
  R(0) = R(0) AND $FFFFFFFD
  GOSUB(WRITEALL)
